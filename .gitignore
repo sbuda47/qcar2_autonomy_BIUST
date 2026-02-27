@@ -1,0 +1,27 @@
+# ROS/colcon
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# OS junk
+.DS_Store
+
+# Large binaries / model weights (keep out of git)
+models/*.pt
+scripts/models/*.pt
+*.onnx
+
+# Tests
+.pytest_cache/
+coverage.xml
